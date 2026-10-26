@@ -1,0 +1,178 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.footer1 {
+  width: 100%;
+  background: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+  border-top: 3px solid #8a2be2;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 55px 9%;
+  min-height: 255px;
+}
+
+.footer3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer3 h3 {
+  font-size: 17px;
+  margin: 0 0 17px;
+}
+
+.footer3 h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 18px;
+}
+
+.footer3 p,
+.footer3 a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 0 0 12px;
+}
+
+.footer3 a:hover {
+  color: #aaa;
+}
+
+.footer4 {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 148px;
+  height: 34px;
+  margin-top: 0;
+}
+
+.footer4 input {
+  width: 115px;
+  min-width: 0;
+  padding: 8px 10px;
+  color: white;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 11px;
+}
+
+.footer4 button {
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.footer5 {
+  margin-top: 5px !important;
+}
+
+.footer6 {
+  font-size: 9px !important;
+  color: #aaa !important;
+  white-space: nowrap;
+}
+
+.footer7 {
+  display: flex;
+  gap: 8px;
+  margin-top: 0;
+}
+
+.footer8 {
+  width: 55px;
+  height: 55px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.footer9 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer9 button {
+  background: #000;
+  color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 5px;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.footer10 {
+  display: flex;
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.footer10 a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer11 {
+  border-top: 1px solid #222;
+  padding: 12px;
+  text-align: center;
+  color: #555;
+  font-size: 12px;
+}
+
+.footer11 p {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .footer2 {
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px 6%;
+  }
+
+  .footer3 {
+    width: 28%;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer2 {
+    gap: 30px 15px;
+    padding: 30px 5%;
+  }
+
+  .footer3 {
+    width: 45%;
+  }
+
+  .footer3 h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer3 {
+    width: 100%;
+  }
+}

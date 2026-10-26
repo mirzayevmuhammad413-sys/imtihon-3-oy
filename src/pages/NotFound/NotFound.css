@@ -1,0 +1,32 @@
+.not-found {
+  text-align: center;
+  padding: 110px 0 120px;
+}
+
+.not-found h1 {
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 20px;
+  letter-spacing: 3px;
+}
+
+.not-found h2 {
+  font-size: 24px;
+  margin: 0 0 12px;
+}
+
+.not-found p {
+  color: var(--muted);
+  margin: 0 0 40px;
+}
+
+@media (max-width: 560px) {
+  .not-found {
+    padding: 70px 0 80px;
+  }
+
+  .not-found h1 {
+    font-size: 72px;
+  }
+}
